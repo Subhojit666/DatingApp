@@ -4,6 +4,8 @@
         "Autoincrement",
         "datepicker",
         "datingapp",
-        "devkit"
+        "devkit",
+        "hmac",
+        "HMACSHA"
     ]
 }
