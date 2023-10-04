@@ -8,7 +8,9 @@
         "devkit",
         "hmac",
         "HMACSHA",
+        "routr",
         "titlecase",
-        "toastr"
+        "toastr",
+        "Unauthorised"
     ]
 }
