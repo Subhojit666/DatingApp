@@ -22,7 +22,7 @@ public class AccountController : BaseApiController
         _tokenService = tokenService;
     }
 [HttpPost("register")]
-public async Task<ActionResult<UserDto>> Register(RegisterDTO registerDTO)
+public async Task<ActionResult<UserDto>> Register(RegisterDto registerDTO)
 {
     if(await UserExists(registerDTO.Username)) return BadRequest("Username is taken!!");
     using var hmac = new HMACSHA512();
